@@ -285,3 +285,23 @@ option {
   width: 100%;
   height: 100%;
 }
+
+/* -----select arrows---------- */
+
+.select select {
+  position: absolute;
+}
+
+.select {
+  position: relative;
+  width: 245px;
+  height: 38px;
+}
+
+.arrow {
+  position: absolute;
+  right: 5px;
+  top: 33px;
+  z-index: 1;
+  background-color: #fff;
+}
