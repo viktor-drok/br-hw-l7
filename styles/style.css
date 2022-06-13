@@ -53,15 +53,6 @@ font-family: 'Roboto', sans-serif; */
   background: #ffffff;
 }
 
-.form_create {
-}
-
-.signUp {
-}
-
-.createAcc {
-}
-
 .createAcc-title {
   font-family: 'Roboto';
   font-weight: 500;
@@ -112,18 +103,12 @@ label[for='fn'] {
   border: 1px solid #007bff;
 }
 
-.fn {
-}
-
 #mail {
   width: 100%;
   height: 38px;
   background: #ffffff;
   border: 1px solid #e4e4e4;
   border-radius: 6px;
-}
-
-.mail {
 }
 
 #mail {
@@ -193,12 +178,6 @@ label[for='female'] {
 
 option {
   color: black;
-}
-
-.select {
-}
-
-.submit {
 }
 
 .btn {
@@ -272,9 +251,6 @@ option {
   display: flex;
 }
 
-label[for='male'] {
-}
-
 .radio + label[for='male']::before,
 .radio + label[for='female']::before {
   content: '';
@@ -303,28 +279,6 @@ label[for='male'] {
 .male-text {
   padding-left: 28px;
 }
-
-/* .male::before {
-  content: '';
-  width: 20px;
-  height: 20px;
-  border: 1px solid #e4e4e4;
-  border-radius: 50%;
-}
-
-.male {
-  position: relative;
-  align-items: center;
-}
-
-#male {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  opacity: 0.5;
-  top: 0;
-  left: 0;
-} */
 
 .radio {
   opacity: 0;
